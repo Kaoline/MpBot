@@ -1,7 +1,13 @@
 {
   "name": "mpeur",
+  "author": {
+    "name": "Kaoline"
+  },
   "version": "0.0.0",
+  "main": "main.js",
+  "license": "MIT License",
   "scripts": {
+    "electron": "ng build --base-href ./ && electron .",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
@@ -33,6 +39,7 @@
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "~8.9.4",
     "codelyzer": "~4.3.0",
+    "electron": "^3.0.2",
     "jasmine-core": "~2.99.1",
     "jasmine-spec-reporter": "~4.2.1",
     "karma": "~3.0.0",
