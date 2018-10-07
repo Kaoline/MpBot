@@ -1,0 +1,10 @@
+ul {
+  display: inline;
+}
+li {
+  display: inline;
+  padding-right: 10px;
+}
+.user {
+  display: inline;
+}
